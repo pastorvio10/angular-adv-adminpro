@@ -1,0 +1,35 @@
+  <!--   el main graper o envolura principal es donde van todos los componentes
+    como son el header el body el footer el sidebar  -->
+    <div id="main-wrapper"> 
+        <app-header></app-header>
+        <app-sidebar></app-sidebar>
+    
+        <div class="page-wrapper">
+            <div class="container-fluid">
+                <!--migajas de pan-->
+                <app-breadcrumbs></app-breadcrumbs>
+    
+                <!--sistemas de rutas -->
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <!--¿Qué es el router outlet?
+    El <router-outlet> le dice al enrutador dónde mostrar las vistas enrutadas.-->
+                                    <router-outlet></router-outlet>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <!-- ============================================================== -->
+            <footer class="footer">
+                © 2023 Admin Pro by wrappixel.com
+            </footer>
+            <!-- ============================================================== -->
+            <!-- End footer -->
+            <!-- ============================================================== -->
+        </div>
+    
+    </div>
+    

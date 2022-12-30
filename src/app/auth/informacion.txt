@@ -1,0 +1,1 @@
+en esta caperta va los registros, el login, hacer lazy-load 
